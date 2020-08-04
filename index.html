@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ruijun's work</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="MyraStudio" />
+
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!-- Bootstrap Css-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+        <!-- Materialdesign icon Css-->
+        <link rel="stylesheet" type="text/css" href="css/icofont.min.css" />
+        <!-- Pe 7 icon Css-->
+        <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
+
+        <!-- Custom Css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    </head>
+
+    <style>
+
+        .text-light{
+            font-weight: lighter;
+        }
+
+        /* create unequal columns */
+
+        * {
+          box-sizing: border-box;
+        }
+        
+        /* Create two unequal columns that floats next to each other */
+        .column {
+          float: left;
+          padding: 10px;
+          height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        .left {
+          width: 25%;
+        }
+        
+        .right {
+          width: 75%;
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+
+
+        /* draw a line */
+
+        .div-line {
+        position: static;
+        left: 33.333%;
+        top: 60px;
+        right: 5%;
+        bottom: 61px;
+        z-index: 22;
+        height: 1px;
+        margin-bottom: 0px;
+        border: 0.5px solid #000;
+        color: silver;
+        }
+    </style>
+
+    <body>
+
+           <!-- Start Navbar -->
+           <nav class="navbar navbar-expand-lg navbar-default navbar-custom navbar-light">
+            <div class="container">
+                <!-- <a class="navbar-brand logo" href="index.html"><i class="icofont-circuit"></i></a> -->
+
+                <div class="navbar-header">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="mdi mdi-menu"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About me</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+                    </ul>
+                </div>
+                
+
+            </div>
+            
+        </nav>
+        <!-- End Navbar -->
+
+
+        <!-- <div class='div-line' style='width:100%'></div> -->
+
+        <!-- <div class="row">
+            <div class="column left" style="background-color:white;"> -->
+
+              <section>
+                <div class="container">
+                    <!-- <div class="row"> -->
+                        <!-- <div class="col-lg-12"> -->
+                            <div class="page-title text-center">
+                                <div class="row justify-content-center" style='margin-left: 10px;'>
+                                    <!-- <div class="col-lg-9"> -->
+                                        
+                                        <p style='margin-top: 50px;'><span style='font-family:Julius Sans One;font-size: 48px'>Ruijun Liu</span><br><span>design studies | UX | interactive design | visualization | urban studies</span> </p>
+                                        <p></p>
+                                        <p class="text-muted"></p>
+                                      
+                                        
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                        <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </section>
+    
+            <!-- </div> -->
+
+            <!-- <div class="column right" style="background-color:white;"> -->
+                
+                
+
+                <section class="section">
+                    <div class="container" style='width:100%'>
+        
+                        <!-- SECTION FILTER
+                            ================================================== -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="portfolio-filter text-center">
+                                    <a href="#" data-filter="*" class="current waves-effect waves-success">All</a>
+                                    <a href="#" data-filter=".tech" class="waves-effect waves-success">Tech-driven Design</a>
+                                    <a href="#" data-filter=".webarvr" class="waves-effect waves-success">Web | AR | VR</a>
+                                    <a href="#" data-filter=".vis" class="waves-effect waves-success">Visualization</a>
+                                    <a href="#" data-filter=".urban" class="waves-effect waves-success">Urban studies</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+        
+                        <div class="port portfolio-masonry m-b-30">
+                            <div class="portfolioContainer row">
+
+
+                                <div class="col-lg-4 webarvr vis">
+                                    <a href=" https://junlr.github.io/Astrodex">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/astrodex.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>Data visualization</p>
+                                                <h4>Astrodex</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 tech urban">
+                                    <a href="street_score.html">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/street_sight.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>computer vision, AI, Urban research</p>
+                                                <h4>computer vision to score street quality</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 tech">
+                                    <a href="https://www.youtube.com/watch?v=KkpIO7AUCgE">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/mask.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>AI generated mask to hack facial regonition</p>
+                                                <h4>Phtantom GAN</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 tech">
+                                    <a href="portfolio/fashion.html">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/social-distancing.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>responsive wearable</p>
+                                                <h4>the Fashion of social distancing</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 tech webarvr">
+                                    <a href="portfolio/ar.html">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/enning.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>AR application</p>
+                                                <h4>Enning Road Frozen</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4 webarvr vis">
+                                    <a href='https://junlr.github.io/airbnb_HousingAffordability/'>
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/airbnb/p1.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>web-based data visualization</p>
+                                                <h4>Airbnb and housing affordability</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <a href='portfolio/the3vision.html'>
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/the3vision/p1.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>the 3 vision</p>
+                                                <h4>exhibition</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 webarvr">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/vr_car.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>VR experience design</p>
+                                                <h4>VR experience of car sales</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 tech vis">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/trampoline.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>computational design</p>
+                                                <h4>Galaxical Trampoline</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+        
+                                <div class="col-lg-4 tech vis">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/conductor.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>computational design</p>
+                                                <h4>Tangible Rhythm</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+        
+                                <div class="col-lg-4 urban">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/dubai.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>architecture and urban research</p>
+                                                <h4>cooling neighbor</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 tech vis">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/weathering.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>computational design</p>
+                                                <h4>Weathring faces</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+        
+                                <div class="col-lg-4 urban">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/valentino.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>urban design</p>
+                                                <h4>Historic procenium</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                   
+                                </div>
+        
+                                <div class="col-lg-4 vis">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/maice.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>data visualization</p>
+                                                <h4>data visualzation platform of MAICE</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 urban">
+                                    <a href="">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/hancheng.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>urban studies</p>
+                                                <h4>Matching of form and time</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+        
+                                <div class="col-lg-4 webarvr">
+                                    <a href="https://cs50.harvard.edu/college/2019/fall/">
+                                        <div class="portfolio-box">
+                                            <div class="portfolio-box-img">
+                                                <img src="images/works/cs50.png" class="img-fluid" alt="member-image">
+                                            </div>
+                                            <div class="portfolio-box-detail">
+                                                <p>web design and develop</p>
+                                                <h4>course evaluation website</h4>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+        
+                            </div>
+                            <!-- end portfoliocontainer-->
+                        </div>
+                        <!-- End row -->
+        
+                        <!-- <div class="row">
+                            <div class="col-lg-12">
+                                <div class="text-center margin-t-30">
+                                    <a href="work.html" class="btn btn-custom">More works</a>
+                                </div>
+                            </div>
+                        </div> -->
+        
+                    </div> <!-- end container -->
+                </section>
+
+
+
+            <!-- </div>
+        </div> -->
+            
+         
+
+
+        
+
+        
+
+        <!-- <section class="margin-t-30">
+            <div class="container">
+
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <i class="pe-7s-leaf text-custom"></i>
+                            </div>
+                            <h4 class="text-uppercase service-title mt-3">Branding</h4>
+
+                            <p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <i class="pe-7s-helm text-custom"></i>
+                            </div>
+                            <h4 class="text-uppercase service-title mt-3">Highly customizable</h4>
+
+                            <p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="service-box">
+                            <div class="service-icon">
+                                <i class="pe-7s-airplay text-custom"></i>
+                            </div>
+                            <h4 class="text-uppercase service-title mt-3">Responsive design</h4>
+
+                            <p class="text-muted">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>  -->
+            <!-- end container-->
+        <!-- </section>  -->
+
+
+        <!-- FOOTER -->
+        <!-- <footer class="footer">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <a class="pb-2 display-4 mb-0 d-inline-block text-dark" href="index.html"><i
+                                    class="icofont-deer-head"></i></a>
+                            <h4 class="font-weight-bold">BUCKZO</h4>
+
+                            <ul class="list-inline social-circle margin-t-30">
+                                <li class="list-inline-item"><a href=""> <i class="icofont-envato"></i> </a></li>
+                                <li class="list-inline-item"><a href=""> <i class="icofont-facebook"></i> </a></li>
+                                <li class="list-inline-item"><a href=""> <i class="icofont-skype"></i> </a></li>
+                                <li class="list-inline-item"><a href=""> <i class="icofont-twitter"></i> </a></li>
+                                <li class="list-inline-item"><a href=""> <i class="icofont-whatsapp"></i> </a></li>
+                            </ul>
+
+                            <p class="text-muted m-b-0 copyright-txt"> © 2020 Buckzo. By <a href="http://www.bootstrapmb.com" title="">MyraStudio</a></p>
+
+                        </div>
+                    </div>
+                </div> -->
+                <!-- end row -->
+
+            <!-- </div>
+        </footer> -->
+        <!-- END FOOTER -->
+
+        <!-- FOOTER -->
+        <div class='miaov_foot'>
+            <iframe MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no src="footer.html" width="100%"  height="auto">
+           </iframe>
+        </div>
+
+        <!-- JAVASCRIPTS -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- isotope filter plugin -->
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/portfolio-filter.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
